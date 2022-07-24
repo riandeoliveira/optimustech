@@ -1,3 +1,5 @@
+@use "../colors" as *;
+
 @mixin accessibility($color) {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s, color 0.15s;
@@ -9,4 +11,19 @@
   &:hover {
     color: $color;
   }
+}
+
+@mixin button {
+  background-color: $primary-650;
+  border-radius: 0.5rem;
+  color: $neutral-020;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.625rem 1.125rem;
+}
+
+@mixin link {
+  color: $secondary-540;
+  font-weight: 500;
 }
