@@ -1,9 +1,13 @@
-$colors: (
-  primary: (
-    normal: hsl(213, 100%, 46%),
-  ),
-  neutral: (
-    dark: hsl(0, 0%, 0%),
-    light: hsl(0, 0%, 100%),
-  ),
-);
+$primary-650: hsl(0, 60%, 35%);
+$primary-570: hsla(0, 77%, 43%, 0.031);
+
+$secondary-890: hsl(220, 43%, 11%);
+$secondary-730: hsl(222, 15%, 27%);
+$secondary-540: hsl(221, 13%, 46%);
+$secondary-050: hsl(0, 0%, 100%);
+
+$neutral-999: hsl(0, 0%, 0%);
+$neutral-350: hsl(218, 15%, 65%);
+$neutral-160: hsl(217, 16%, 84%);
+$neutral-070: hsl(220, 17%, 93%);
+$neutral-020: hsl(210, 20%, 98%);
