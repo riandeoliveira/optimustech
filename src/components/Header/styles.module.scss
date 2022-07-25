@@ -2,20 +2,19 @@
 
 .header {
   display: flex;
+  height: 5rem;
   justify-content: center;
-  min-height: 5rem;
   padding: 0 1rem;
 }
 
 .header_container {
   display: flex;
-  justify-content: space-between;
-  width: 75rem;
-}
-
-.container {
-  display: flex;
   gap: 7.5rem;
+  width: 76rem;
+
+  @include media-query($tablet-l) {
+    justify-content: space-between;
+  }
 }
 
 .logo {
@@ -28,35 +27,4 @@
   color: $secondary-730;
   font-size: 1.125rem;
   font-weight: 500;
-}
-
-.nav {
-  display: flex;
-}
-
-.list {
-  align-items: center;
-  display: flex;
-  gap: 2rem;
-}
-
-.link {
-  @include link;
-}
-
-.button_container {
-  align-items: center;
-  display: flex;
-  gap: 0.75rem;
-}
-
-.link_button {
-  @include button;
-  @include link;
-
-  background-color: transparent;
-}
-
-.button {
-  @include button;
 }
