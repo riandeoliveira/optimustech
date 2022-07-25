@@ -1,14 +1,10 @@
-import { Header, Main } from "components";
+import { Header } from "components";
 import type { NextPage } from "next";
 
 const Home: NextPage = (): JSX.Element => {
   return (
     <>
       <Header />
-      <Main>
-        <h1>Hello, Rian Oliveira!</h1>
-        <h2>Have a nice coding ;)</h2>
-      </Main>
     </>
   );
 };
