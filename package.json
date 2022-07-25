@@ -22,7 +22,8 @@
     "prebuild": "yarn lint",
     "prepare": "husky install",
     "start": "next start",
-    "stylelint": "stylelint **/*.scss"
+    "stylelint": "stylelint **/*.scss",
+    "test": "jest"
   },
   "dependencies": {
     "@prisma/client": "^4.0.0",
