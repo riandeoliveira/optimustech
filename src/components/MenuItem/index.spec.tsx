@@ -3,9 +3,7 @@ import MenuItem from ".";
 
 describe("MenuItem Component", () => {
   it("should have a link element", () => {
-    const { container, debug } = render(
-      <MenuItem title="Title" path="/path" />
-    );
+    const { container } = render(<MenuItem title="Title" path="/path" />);
 
     const linkElement: HTMLElement | null = container.querySelector("a");
 
