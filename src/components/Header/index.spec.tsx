@@ -1,10 +1,14 @@
 import { render } from "@testing-library/react";
 import Header from ".";
 
-describe("something", () => {
-  it("should be able to do something", () => {
-    const { getByText } = render(<Header />);
+describe("Header Component", () => {
+  it("should contain the website name", () => {
+    const { getByText, debug } = render(<Header />);
 
-    expect(getByText("OptimusTech")).toBeInTheDocument();
+    const websiteName: HTMLElement = getByText("OptimusTech");
+
+    expect(websiteName).toBeInTheDocument();
+
+    debug();
   });
 });
