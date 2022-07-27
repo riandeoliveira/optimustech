@@ -1,3 +1,14 @@
+export interface IJobOpportunity {
+  job: string;
+  type: string;
+  salary: number;
+}
+
+export interface IJobPost {
+  occupation: string;
+  opportunities: IJobOpportunity[];
+}
+
 export interface IMetricItem {
   count: number;
   description: string;

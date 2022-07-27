@@ -1,0 +1,25 @@
+@use "../../styles" as *;
+
+.container {
+  border: 0.0625rem solid $neutral-070;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 1.75rem;
+}
+
+.job {
+  color: $secondary-890;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.data {
+  color: $secondary-540;
+  display: flex;
+  font-weight: 500;
+  gap: 1.5rem;
+}

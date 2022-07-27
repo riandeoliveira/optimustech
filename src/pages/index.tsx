@@ -1,4 +1,4 @@
-import { AboutUsArea, Header, Main } from "components";
+import { AboutUsArea, Header, JobsArea, Main } from "components";
 import type { NextPage } from "next";
 
 const Home: NextPage = (): JSX.Element => {
@@ -7,6 +7,7 @@ const Home: NextPage = (): JSX.Element => {
       <Header />
       <Main>
         <AboutUsArea />
+        <JobsArea />
       </Main>
     </>
   );
