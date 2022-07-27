@@ -1,4 +1,11 @@
-import { AboutUsArea, FeedbacksArea, Header, JobsArea, Main } from "components";
+import {
+  AboutUsArea,
+  FeedbacksArea,
+  Footer,
+  Header,
+  JobsArea,
+  Main,
+} from "components";
 import type { NextPage } from "next";
 
 const Home: NextPage = (): JSX.Element => {
@@ -10,6 +17,7 @@ const Home: NextPage = (): JSX.Element => {
         <JobsArea />
         <FeedbacksArea />
       </Main>
+      <Footer />
     </>
   );
 };
