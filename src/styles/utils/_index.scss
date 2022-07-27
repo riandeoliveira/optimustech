@@ -1,12 +1,34 @@
+@use "../colors" as *;
+
 @mixin accessibility($color) {
   border-radius: 0.25rem;
-  transition: box-shadow 0.15s, color 0.15s;
+  outline: 0;
+  transition: box-shadow 0.15s;
 
   &:focus-visible {
     box-shadow: 0 0 0 0.25rem $color;
   }
+}
 
+@mixin button {
+  @include accessibility($primary-550);
+
+  background-color: $primary-650;
+  border-radius: 0.5rem;
+  color: $neutral-020;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.625rem 1.125rem;
+}
+
+@mixin link {
+  @include accessibility($primary-550);
+
+  color: $secondary-540;
+  font-weight: 500;
+
+  &:focus-visible,
   &:hover {
-    color: $color;
+    color: $secondary-730;
   }
 }

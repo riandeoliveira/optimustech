@@ -1,0 +1,17 @@
+@use "../../styles" as *;
+
+.link {
+  @include link;
+}
+
+@include media-query($tablet-l) {
+  .item {
+    display: flex;
+    width: 100%;
+  }
+
+  .link {
+    flex: auto;
+    padding: 0.5rem;
+  }
+}
