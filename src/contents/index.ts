@@ -1,4 +1,5 @@
+import jobPosts from "./job-posts";
 import menuItems from "./menu-items";
 import metricItems from "./metric-items";
 
-export { menuItems, metricItems };
+export { jobPosts, menuItems, metricItems };
