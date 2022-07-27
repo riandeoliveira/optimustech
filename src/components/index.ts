@@ -1,4 +1,5 @@
 import AboutUsArea from "./AboutUsArea";
+import FeedbacksArea from "./FeedbacksArea";
 import Header from "./Header";
 import JobOpportunity from "./JobOpportunity";
 import JobPost from "./JobPost";
@@ -10,6 +11,7 @@ import Navbar from "./Navbar";
 
 export {
   AboutUsArea,
+  FeedbacksArea,
   Header,
   JobOpportunity,
   JobPost,
