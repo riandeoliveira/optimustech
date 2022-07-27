@@ -1,0 +1,26 @@
+@use "../../styles" as *;
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.data {
+  color: $primary-650;
+  font-size: 3.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.title {
+  color: $secondary-890;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0.75rem 0 0.5rem;
+}
+
+.description {
+  color: $secondary-540;
+  line-height: 1.5rem;
+}
