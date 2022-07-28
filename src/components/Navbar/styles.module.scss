@@ -1,0 +1,79 @@
+@use "../../styles" as *;
+
+.mobile_menu {
+  align-items: center;
+  display: none;
+}
+
+.menu_button {
+  @include accessibility($primary-080);
+
+  background-color: transparent;
+  color: $primary-650;
+  cursor: pointer;
+  display: flex;
+}
+
+.nav_container {
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+}
+
+.list {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.button_container {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.link_button {
+  @include button;
+  @include link;
+
+  background-color: transparent;
+}
+
+.button {
+  @include button;
+
+  height: 2.75rem;
+  width: 7rem;
+}
+
+@include media-query($tablet-l) {
+  .mobile_menu {
+    display: flex;
+  }
+
+  .nav_container {
+    background-color: $primary-080;
+    border-radius: 0.625rem;
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 5rem;
+  }
+
+  .list {
+    flex: auto;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .active {
+    display: flex;
+  }
+}
