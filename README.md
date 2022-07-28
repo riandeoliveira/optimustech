@@ -1,24 +1,21 @@
 <div align="center">
-  <h1>OptimusTech</h1>
+  <img src=".github/header.svg" alt="7 Days Of Code logo" />
+  <br />
+  <img src=".github/logo.png" alt="HTML and CSS logo" />
+  <h1>🚀 OptimusTech - #7DaysOfCode 🚀</h1>
 </div>
 
 ## 📚 Sobre
 
-<!-- Uma breve descrição do seu projeto -->
+Página completa de vagas da empresa fictícia **OptimusTech**.
 
-### 🕹️ Possui as seguintes funcionalidades:
+## 🏗️ Desenvolvimento
 
-- Funcionalidade 1
-- Funcionalidade 2
-- Funcionalidade 3
+Projeto proposto pela desafiante [Giovanna Moeller](https://www.linkedin.com/in/giovannamoeller/?originalSubdomain=br) durante o [7 Days Of Code](https://7daysofcode.io/) da [Alura](https://www.alura.com.br/).
 
-### 📝 Nota
+## 📝 Notas
 
-<!-- Notas sobre o projeto -->
-
-### 🏗️ Desenvolvimento
-
-<!-- Detalhes sobre o desenvolvimento -->
+Apesar das tecnologias propostas pelo desafio serem apenas **HTML** e **CSS**, optei por treinar utilizando minha stack atual.
 
 ## 🔎 Demonstração
 
@@ -91,13 +88,13 @@
     <tr>
       <td align="center" width="140" height="110">
         <img
-          src="https://avatars.githubusercontent.com/u/32372333?v=4&s=400"
-          alt="Axios logo"
-          title="Axios"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg"
+          alt="Markdown logo"
+          title="Markdown"
           width="50"
         />
         <br>
-        <span>Axios</span>
+        <span>Markdown</span>
       </td>
       <td align="center" width="140" height="110">
         <img
@@ -121,6 +118,16 @@
       </td>
       <td align="center" width="140" height="110">
         <img
+          src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png"
+          alt="Jest logo"
+          title="Jest"
+          width="50"
+        />
+        <br>
+        <span>Jest</span>
+      </td>
+      <td align="center" width="140" height="110">
+        <img
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
           alt="Node.js logo"
           title="Node.js"
@@ -128,15 +135,6 @@
         />
         <br>
         <span>Node.js</span>
-      </td>
-      <td align="center" width="140" height="110">
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
-          alt="MongoDB logo"
-          title="MongoDB"
-          width="50" />
-        <br>
-        <span>MongoDB</span>
       </td>
     </tr>
     <tr>
@@ -172,6 +170,16 @@
       </td>
       <td align="center" width="140" height="110">
         <img
+          src="https://testing-library.com/img/octopus-128x128.png"
+          alt="Testing Library logo"
+          title="Testing Library"
+          width="50"
+        />
+        <br>
+        <span>Testing Library</span>
+      </td>
+      <td align="center" width="140" height="110">
+        <img
           src="https://avatars.githubusercontent.com/u/39895671?s=280&v=4"
           alt="React Icons logo"
           title="React Icons"
@@ -179,15 +187,6 @@
         />
         <br>
         <span>React Icons</span>
-      </td>
-      <td align="center" width="140" height="110">
-        <img
-          src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png"
-          alt="Prisma logo"
-          title="Prisma"
-          width="50" />
-        <br>
-        <span>Prisma</span>
       </td>
     </tr>
   </tbody>
