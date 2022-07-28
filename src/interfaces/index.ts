@@ -9,13 +9,13 @@ export interface IJobPost {
   opportunities: IJobOpportunity[];
 }
 
-export interface IMetricItem {
-  count: number;
-  description: string;
+export interface IMenuItem {
+  path: string;
   title: string;
 }
 
-export interface IMenuItem {
-  path: string;
+export interface IMetricItem {
+  count: number;
+  description: string;
   title: string;
 }
