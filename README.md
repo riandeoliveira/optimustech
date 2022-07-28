@@ -3,6 +3,7 @@
   <br />
   <img src=".github/logo.png" alt="HTML and CSS logo" />
   <h1>OptimusTech</h1>
+  <span>🧑‍💻 7 Days Of Code - HTML e CSS</span>
 </div>
 
 ## 📚 Sobre
