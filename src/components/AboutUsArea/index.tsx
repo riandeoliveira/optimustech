@@ -1,4 +1,4 @@
-import MetricItem from "components/MetricItem";
+import { MetricItem } from "components";
 import { metricItems } from "contents";
 import styles from "./styles.module.scss";
 
