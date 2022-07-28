@@ -8,7 +8,7 @@ const Document = (): JSX.Element => {
         <meta name="keywords" content="React, Next.js, TypeScript" />
         <meta name="author" content="Rian Oliveira" />
         <meta name="theme-color" content="#ffffff" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <body>
         <Main />

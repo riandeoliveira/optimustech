@@ -11,7 +11,7 @@
 }
 
 @mixin button {
-  @include accessibility($primary-550);
+  @include accessibility($primary-080);
 
   background-color: $primary-650;
   border-radius: 0.5rem;
@@ -22,7 +22,7 @@
 }
 
 @mixin link {
-  @include accessibility($primary-550);
+  @include accessibility($primary-080);
 
   color: $secondary-540;
   font-weight: 500;

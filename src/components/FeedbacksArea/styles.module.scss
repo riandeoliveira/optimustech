@@ -61,3 +61,14 @@
   color: $secondary-540;
   font-size: 0.875rem;
 }
+
+@include media-query($tablet-s) {
+  .section_container {
+    padding: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    line-height: normal;
+  }
+}
