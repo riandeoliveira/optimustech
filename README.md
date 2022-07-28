@@ -91,13 +91,13 @@
     <tr>
       <td align="center" width="140" height="110">
         <img
-          src="https://avatars.githubusercontent.com/u/32372333?v=4&s=400"
-          alt="Axios logo"
-          title="Axios"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg"
+          alt="Markdown logo"
+          title="Markdown"
           width="50"
         />
         <br>
-        <span>Axios</span>
+        <span>Markdown</span>
       </td>
       <td align="center" width="140" height="110">
         <img
@@ -121,6 +121,16 @@
       </td>
       <td align="center" width="140" height="110">
         <img
+          src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png"
+          alt="Jest logo"
+          title="Jest"
+          width="50"
+        />
+        <br>
+        <span>Jest</span>
+      </td>
+      <td align="center" width="140" height="110">
+        <img
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
           alt="Node.js logo"
           title="Node.js"
@@ -128,15 +138,6 @@
         />
         <br>
         <span>Node.js</span>
-      </td>
-      <td align="center" width="140" height="110">
-        <img
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
-          alt="MongoDB logo"
-          title="MongoDB"
-          width="50" />
-        <br>
-        <span>MongoDB</span>
       </td>
     </tr>
     <tr>
@@ -172,6 +173,16 @@
       </td>
       <td align="center" width="140" height="110">
         <img
+          src="https://testing-library.com/img/octopus-128x128.png"
+          alt="Testing Library logo"
+          title="Testing Library"
+          width="50"
+        />
+        <br>
+        <span>Testing Library</span>
+      </td>
+      <td align="center" width="140" height="110">
+        <img
           src="https://avatars.githubusercontent.com/u/39895671?s=280&v=4"
           alt="React Icons logo"
           title="React Icons"
@@ -179,15 +190,6 @@
         />
         <br>
         <span>React Icons</span>
-      </td>
-      <td align="center" width="140" height="110">
-        <img
-          src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png"
-          alt="Prisma logo"
-          title="Prisma"
-          width="50" />
-        <br>
-        <span>Prisma</span>
       </td>
     </tr>
   </tbody>
