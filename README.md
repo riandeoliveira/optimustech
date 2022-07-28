@@ -8,21 +8,15 @@
 
 ## 📚 Sobre
 
-<!-- Uma breve descrição do seu projeto -->
-
-### 🕹️ Possui as seguintes funcionalidades:
-
-- Funcionalidade 1
-- Funcionalidade 2
-- Funcionalidade 3
-
-### 📝 Nota
-
-<!-- Notas sobre o projeto -->
+Página completa de vagas da empresa fictícia **OptimusTech**.
 
 ### 🏗️ Desenvolvimento
 
-<!-- Detalhes sobre o desenvolvimento -->
+Projeto proposto pela desafiante [Giovanna Moeller](https://www.linkedin.com/in/giovannamoeller/?originalSubdomain=br) durante o [7 Days Of Code](https://7daysofcode.io/) da [Alura](https://www.alura.com.br/).
+
+### 📝 Nota
+
+Apesar das tecnologias propostas pelo desafio serem apenas **HTML** e **CSS**, optei por treinar utilizando minha stack atual.
 
 ## 🔎 Demonstração
 
