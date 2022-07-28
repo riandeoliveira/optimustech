@@ -38,9 +38,9 @@
 .form {
   display: flex;
   gap: 1rem;
-  height: 3rem;
   justify-content: center;
   margin: 2.5rem 0 2rem;
+  min-height: 3rem;
 }
 
 .input {
@@ -53,6 +53,7 @@
   font-size: 1rem;
   max-width: 22.5rem;
   padding: 0.75rem 1rem;
+  width: 100%;
 }
 
 .button {
@@ -66,4 +67,26 @@
   color: $neutral-350;
   line-height: 1.5rem;
   text-align: center;
+}
+
+@include media-query($tablet-s) {
+  .title {
+    font-size: 1.25rem;
+    line-height: normal;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: normal;
+  }
+}
+
+@include media-query($mobile-s) {
+  .form {
+    flex-direction: column;
+  }
+
+  .button {
+    max-width: none;
+  }
 }

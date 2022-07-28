@@ -43,6 +43,26 @@
 }
 
 .metrics {
-  display: flex;
+  display: grid;
   gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+
+  @include media-query($tablet-l) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media-query($mobile-l) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@include media-query($tablet-s) {
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: normal;
+  }
 }
