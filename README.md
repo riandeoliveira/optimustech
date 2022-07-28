@@ -1,4 +1,7 @@
 <div align="center">
+  <img src=".github/header.svg" alt="7 Days Of Code logo" />
+  <br />
+  <img src=".github/logo.png" alt="HTML and CSS logo" />
   <h1>OptimusTech</h1>
 </div>
 
