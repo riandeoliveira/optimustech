@@ -2,19 +2,18 @@
   <img src=".github/header.svg" alt="7 Days Of Code logo" />
   <br />
   <img src=".github/logo.png" alt="HTML and CSS logo" />
-  <h1>OptimusTech</h1>
-  <span>🧑‍💻 7 Days Of Code - HTML e CSS</span>
+  <h1>🚀 OptimusTech - #7DaysOfCode 🚀</h1>
 </div>
 
 ## 📚 Sobre
 
 Página completa de vagas da empresa fictícia **OptimusTech**.
 
-### 🏗️ Desenvolvimento
+## 🏗️ Desenvolvimento
 
 Projeto proposto pela desafiante [Giovanna Moeller](https://www.linkedin.com/in/giovannamoeller/?originalSubdomain=br) durante o [7 Days Of Code](https://7daysofcode.io/) da [Alura](https://www.alura.com.br/).
 
-### 📝 Nota
+## 📝 Notas
 
 Apesar das tecnologias propostas pelo desafio serem apenas **HTML** e **CSS**, optei por treinar utilizando minha stack atual.
 
