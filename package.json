@@ -1,7 +1,7 @@
 {
   "name": "optimustech",
   "description": "Página completa de vagas da empresa fictícia OptimusTech.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "type": "module",
   "private": true,
