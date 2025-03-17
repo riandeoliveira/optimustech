@@ -60,10 +60,10 @@
   "metadata": {
     "stack": [
       "js",
-      "pinia",
-      "tailwind",
-      "ts",
-      "vue"
+      "nextjs",
+      "react",
+      "sass",
+      "ts"
     ],
     "thumbnailUrl": "https://raw.githubusercontent.com/riandeoliveira/optimustech/refs/heads/main/.github/assets/thumbnail.png",
     "repositoryUrl": "https://github.com/riandeoliveira/optimustech",
