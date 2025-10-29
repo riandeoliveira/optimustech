@@ -1,0 +1,23 @@
+{
+  "url": "https://optimus-tech-eta.vercel.app/",
+  "repository_url": "https://github.com/riandeoliveira/optimustech",
+  "is_private": false,
+  "is_new": false,
+  "stack": [
+    "js",
+    "nextjs",
+    "react",
+    "sass",
+    "ts"
+  ],
+  "info": {
+    "en_us": {
+      "fullName": "OptimusTech",
+      "description": "A complete job listings page for the fictional technology company OptimusTech. It features a clean, responsive, and professional design."
+    },
+    "pt_br": {
+      "fullName": "OptimusTech",
+      "description": "Página completa de vagas da empresa de tecnologia fictícia OptimusTech. Possui um design limpo, responsivo e profissional."
+    }
+  }
+}
