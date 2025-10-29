@@ -12,11 +12,11 @@
   ],
   "info": {
     "en_us": {
-      "fullName": "OptimusTech",
+      "full_name": "OptimusTech",
       "description": "A complete job listings page for the fictional technology company OptimusTech. It features a clean, responsive, and professional design."
     },
     "pt_br": {
-      "fullName": "OptimusTech",
+      "full_name": "OptimusTech",
       "description": "Página completa de vagas da empresa de tecnologia fictícia OptimusTech. Possui um design limpo, responsivo e profissional."
     }
   }
