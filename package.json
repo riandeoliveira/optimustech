@@ -2,7 +2,6 @@
   "name": "optimustech",
   "version": "1.0.5",
   "private": true,
-  "type": "module",
   "author": {
     "name": "Rian Oliveira",
     "email": "riandiasdeoliveira2001@gmail.com"

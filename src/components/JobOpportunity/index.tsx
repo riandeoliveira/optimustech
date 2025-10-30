@@ -13,7 +13,7 @@ const JobOpportunity = ({
       <span className={styles.job}>{job}</span>
       <div className={styles.data}>
         <span>{type}</span>
-        <span>Faixa salarial: R${salary.toLocaleString()}</span>
+        <span>Faixa salarial: R${salary.toLocaleString("pt-BR")}</span>
       </div>
     </div>
   );
