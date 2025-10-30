@@ -4,8 +4,6 @@ import { CgClose, CgMenu } from "libs/react-icons";
 import { useState } from "react";
 import styles from "./styles.module.scss";
 
-// TODO: This component must to be tested.
-
 const Navbar = (): JSX.Element => {
   const [menuIsOpen, setMenuIsOpen] = useState<boolean>(false);
 

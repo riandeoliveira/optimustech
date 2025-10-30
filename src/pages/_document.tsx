@@ -4,10 +4,7 @@ const Document = (): JSX.Element => {
   return (
     <Html lang="pt-br">
       <Head>
-        <meta name="description" content="Página completa de vagas da empresa fictícia OptimusTech." />
-        <meta name="keywords" content="React, Next.js, TypeScript" />
-        <meta name="author" content="Rian Oliveira" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="description" content="Página completa de vagas da empresa de tecnologia fictícia OptimusTech. Possui um design limpo, responsivo e profissional." />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <body>

@@ -1,12 +1,8 @@
 {
   "name": "optimustech",
-  "description": "Página completa de vagas da empresa fictícia OptimusTech.",
   "version": "1.0.4",
-  "license": "MIT",
-  "type": "module",
   "private": true,
-  "homepage": "https://optimus-tech-eta.vercel.app/",
-  "main": "src/pages/_app.tsx",
+  "type": "module",
   "author": {
     "name": "Rian Oliveira",
     "email": "riandiasdeoliveira2001@gmail.com"
